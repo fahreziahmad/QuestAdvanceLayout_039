@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">prak3</string>
     <string name="nama">Fahrezi Ahmad Syahyana</string>
+    <string name="alamat">Bantul, Jogja</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="copy">Copyright, 2025</string>
+
 
 </resources>
