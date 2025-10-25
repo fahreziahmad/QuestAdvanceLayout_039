@@ -207,3 +207,19 @@ fun ProfileOptionButton(text: String, icon: ImageVector) {
         }
     }
 }
+
+// Composable kustom untuk ikon sosial media
+@Composable
+fun SocialIcon(painterRes: Int, color: Color) {
+    Image(
+        painter = painterResource(id = painterRes),
+        contentDescription = null,
+        modifier = Modifier
+            .size(40.dp)
+            .clip(CircleShape)
+            .background(color)
+            .padding(8.dp),
+
+    )
+}
+
