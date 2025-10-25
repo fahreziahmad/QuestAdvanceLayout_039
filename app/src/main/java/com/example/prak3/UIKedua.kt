@@ -124,3 +124,15 @@ fun ProfileScreen(modifier: Modifier) {
                 icon = Icons.Outlined.Settings
             )
 
+            // Spacer untuk mendorong logout ke bawah
+            Spacer(modifier = Modifier.weight(1f))
+
+            // 7. Tombol Logout
+            Button(
+                onClick = { /* Aksi logout */ },
+                shape = CircleShape,
+                colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFE53935)),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 32.dp, vertical = 32.dp)
+            ) {
