@@ -166,3 +166,14 @@ fun ProfileScreen(modifier: Modifier) {
     }
 }
 
+// Composable kustom untuk tombol opsi
+@Composable
+fun ProfileOptionButton(text: String, icon: ImageVector) {
+    Button(
+        onClick = { /* Aksi tombol */ },
+        shape = RoundedCornerShape(28.dp),
+        colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFF0F0F0)),
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(60.dp)
+    ) {
