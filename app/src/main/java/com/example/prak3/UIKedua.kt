@@ -155,3 +155,14 @@ fun ProfileScreen(modifier: Modifier) {
                 }
             }
 
+            // 8. Copyright
+            Text(
+                text = "© 2025 Fahrezi Ahmad Syhayana",
+                color = Color(0xFFB0B0B0),
+                fontSize = 12.sp,
+                modifier = Modifier.padding(bottom = 16.dp)
+            )
+        }
+    }
+}
+
