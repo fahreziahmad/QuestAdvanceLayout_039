@@ -136,3 +136,22 @@ fun ProfileScreen(modifier: Modifier) {
                     .fillMaxWidth()
                     .padding(horizontal = 32.dp, vertical = 32.dp)
             ) {
+                Row(
+                    modifier = Modifier.padding(vertical = 8.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.Close,
+                        contentDescription = "Logout",
+                        tint = Color.White
+                    )
+                    Text(
+                        text = "Logout",
+                        color = Color.White,
+                        fontWeight = FontWeight.Bold,
+                        fontSize = 16.sp,
+                        modifier = Modifier.padding(start = 8.dp)
+                    )
+                }
+            }
+
