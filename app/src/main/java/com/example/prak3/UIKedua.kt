@@ -177,3 +177,15 @@ fun ProfileOptionButton(text: String, icon: ImageVector) {
             .fillMaxWidth()
             .height(60.dp)
     ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 8.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Icon(
+                imageVector = icon,
+                contentDescription = text,
+                tint = Color.Black,
+                modifier = Modifier.size(24.dp)
+            )
