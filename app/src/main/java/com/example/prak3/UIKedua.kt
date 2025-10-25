@@ -56,4 +56,16 @@ fun ProfileScreen(modifier: Modifier) {
                 .verticalScroll(rememberScrollState()) // Agar bisa di-scroll
                 .padding(24.dp),
             horizontalAlignment = Alignment.CenterHorizontally
-        )
+        ) {
+            Spacer(modifier = Modifier.height(32.dp))
+
+            // 1. Gambar Profil Bulat
+            Image(
+                painter = painterResource(id = R.drawable.poto_me), // Ganti dengan gambar profil Anda
+                contentDescription = "Profile Picture",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(120.dp)
+                    .clip(CircleShape)
+            )
+
