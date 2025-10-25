@@ -98,3 +98,11 @@ fun ProfileScreen(modifier: Modifier) {
                 modifier = Modifier.padding(top = 4.dp)
             )
 
+            // 5. Bio
+            Text(
+                text = "Saya seorang progamming",
+                color = Color.White,
+                fontSize = 16.sp,
+                modifier = Modifier.padding(top = 16.dp)
+            )
+
