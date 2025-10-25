@@ -90,3 +90,11 @@ fun ProfileScreen(modifier: Modifier) {
                 modifier = Modifier.padding(top = 16.dp)
             )
 
+            // 4. Username
+            Text(
+                text = "@Fahrezi_Ahmad",
+                color = Color(0xFFB0B0B0),
+                fontSize = 16.sp,
+                modifier = Modifier.padding(top = 4.dp)
+            )
+
