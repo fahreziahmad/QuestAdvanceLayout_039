@@ -106,3 +106,10 @@ fun ProfileScreen(modifier: Modifier) {
                 modifier = Modifier.padding(top = 16.dp)
             )
 
+            Spacer(modifier = Modifier.height(32.dp))
+
+            // 6. Tombol Opsi
+            ProfileOptionButton(
+                text = "Privacy",
+                icon = Icons.Outlined.Lock
+            )
