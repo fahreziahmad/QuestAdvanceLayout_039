@@ -113,3 +113,14 @@ fun ProfileScreen(modifier: Modifier) {
                 text = "Privacy",
                 icon = Icons.Outlined.Lock
             )
+            Spacer(modifier = Modifier.height(16.dp))
+            ProfileOptionButton(
+                text = "Riwayat Transaksi",
+                icon = Icons.Outlined.Refresh
+            )
+            Spacer(modifier = Modifier.height(16.dp))
+            ProfileOptionButton(
+                text = "Pengaturan",
+                icon = Icons.Outlined.Settings
+            )
+
