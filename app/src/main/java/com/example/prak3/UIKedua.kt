@@ -81,3 +81,12 @@ fun ProfileScreen(modifier: Modifier) {
                 SocialIcon(painterRes = R.drawable.linkedin, color = Color(0xFF0077b5))
             }
 
+            // 3. Nama
+            Text(
+                text = "Fahrezi Ahmad Syahyana",
+                color = Color.White,
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.padding(top = 16.dp)
+            )
+
