@@ -69,3 +69,15 @@ fun ProfileScreen(modifier: Modifier) {
                     .clip(CircleShape)
             )
 
+            // 2. Ikon Sosial Media
+            Row (
+                modifier = Modifier.padding(top = 16.dp),
+                horizontalArrangement = Arrangement.spacedBy(16.dp)
+            ) {
+                // Ganti R.drawable.ic_facebook, dll dengan ikon Anda
+                SocialIcon(painterRes = R.drawable.facebook, color = Color(0xFF3b5998))
+                SocialIcon(painterRes = R.drawable.instagram, color = Color(0xFFdb4a39))
+                SocialIcon(painterRes = R.drawable.twitter, color = Color(0xFF1da1f2))
+                SocialIcon(painterRes = R.drawable.linkedin, color = Color(0xFF0077b5))
+            }
+
