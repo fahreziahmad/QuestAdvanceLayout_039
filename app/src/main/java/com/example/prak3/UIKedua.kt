@@ -189,3 +189,21 @@ fun ProfileOptionButton(text: String, icon: ImageVector) {
                 tint = Color.Black,
                 modifier = Modifier.size(24.dp)
             )
+            Text(
+                text = text,
+                color = Color.Black,
+                fontWeight = FontWeight.Bold,
+                fontSize = 16.sp,
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(start = 16.dp)
+            )
+            Icon(
+                imageVector = Icons.Outlined.PlayArrow, // Ikon panah kanan
+                contentDescription = null,
+                tint = Color(0xFF424242),
+                modifier = Modifier.size(24.dp)
+            )
+        }
+    }
+}
