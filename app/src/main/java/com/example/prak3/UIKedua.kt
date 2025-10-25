@@ -223,3 +223,13 @@ fun SocialIcon(painterRes: Int, color: Color) {
     )
 }
 
+// Preview untuk melihat hasil di Android Studio
+@Preview(showBackground = true, device = "id:pixel_4")
+@Composable
+fun ProfileScreenPreview() {
+    Prak3Theme {
+        ProfileScreen(
+            modifier = Modifier
+        )
+    }
+}
